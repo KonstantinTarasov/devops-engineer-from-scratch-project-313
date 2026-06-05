@@ -7,11 +7,15 @@
 
 # Instructions for the application
 
- Запуск приложения:
+Запуск приложения:
 
 * make install
 
 * make run
+
+Запуск теста:
+
+* make test
 
 ### Курс на Хекслете
 
