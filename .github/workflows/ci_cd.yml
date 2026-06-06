@@ -19,7 +19,7 @@ jobs:
 
       # Шаг 1.2: Установка uv
       - name: Install uv
-        uses: curl -LsSf https://astral.sh/uv/install.sh | sh
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
       
       # Шаг 1.3: Проверка кода линтером Ruff
       - name: Run Ruff Linter
