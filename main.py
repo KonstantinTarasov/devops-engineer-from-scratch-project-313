@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import uvicorn
+# import uvicorn теперь запускаем с консоли
 
 app = FastAPI()
 
@@ -9,8 +9,6 @@ def ping():
 
 # попробуем отправить на render, без прописанного порта
 # избежания ошибки  ==> Exited with status 128
+# запускаем uvicorn с консоли 
 # if __name__ == "__main__":
 #     uvicorn.run("main:app", port=8080)
-
-if __name__ == "__main__":
-    main()
