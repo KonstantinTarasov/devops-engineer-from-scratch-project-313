@@ -7,6 +7,10 @@
 
  Второй проект на курсе DevOps-инженер в Онлайн-школе программирования Хекслет
 
+### Приложение на render
+
+[Приложение](https://devops-engineer-from-scratch-project-313-mip1.onrender.com/ping)
+
 # Instructions for the application
 
 Запуск приложения:
